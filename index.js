@@ -20,6 +20,6 @@ function destructivelyDeleteFromObjectByKey(object,key){
 }
 
 function deleteFromObjectByKey(object,key){
-  return Object.assign({}, object, { breakfast: ['oatmeal', 'banana'] })
+  return Object.assign({}, object, { key })
 }
 
