@@ -14,6 +14,3 @@ function destructivelyUpdateObjectWithKeyAndValue(recipe,key,value){
    return recipe
 }
 
-function deleteFromObjectByKey(object,key){
-  
-}
