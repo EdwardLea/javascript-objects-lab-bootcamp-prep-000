@@ -10,6 +10,5 @@ function updateObjectWithKeyAndValue(recipe,key,value){
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(recipe,key,value){
-   recipe[key] = ['value2'];
-   return recipe;
+   recipe[key] = ["value2"];
 }
