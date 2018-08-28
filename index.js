@@ -23,5 +23,7 @@ function deleteFromObjectByKey(object,key){
   return Object.assign({}, object, { key })
 }
 
-function 
+function deleteFromObjectByKey(object, key){
+  
+}
 
