@@ -10,10 +10,10 @@ function updateObjectWithKeyAndValue(recipe,key,value){
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object,key,value){
-   object[key] = [value1];
-   return object
+    object[key] = [value1];
+   return object;
 }
 
 function deleteFromObjectByKey(object,key){
-  
+  return Object.assign({}, oject)
 }
